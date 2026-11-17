@@ -1,0 +1,7 @@
+body { margin: 0; font-family: Arial, sans-serif; color: #222; }
+header { text-align: center; background: #edf2f5; padding: 22px; }
+.project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 950px; margin: 28px auto; padding: 0 18px; }
+article { border: 1px solid #ccc; padding: 18px; background: #fafafa; }
+article h2 { font-size: 19px; }
+@media (max-width: 700px) { .project-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 450px) { .project-grid { grid-template-columns: 1fr; } }

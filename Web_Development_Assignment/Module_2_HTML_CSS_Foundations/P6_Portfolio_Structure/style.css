@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #222; line-height: 1.5; }
+header { background: #e8edf2; text-align: center; padding: 28px 10px; }
+nav { background: #333; padding: 12px; text-align: center; }
+nav a { color: white; text-decoration: none; margin: 0 12px; }
+main { max-width: 850px; margin: 20px auto; padding: 0 18px; }
+section, article { border: 1px solid #ddd; padding: 16px; margin-bottom: 15px; }
+footer { background: #eee; text-align: center; padding: 12px; }

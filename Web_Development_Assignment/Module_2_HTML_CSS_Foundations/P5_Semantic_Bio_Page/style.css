@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #222; line-height: 1.6; }
+.top, footer { background: #e8edf2; text-align: center; padding: 22px; }
+main { max-width: 750px; margin: 25px auto; padding: 0 18px; }
+section { padding: 12px 18px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; }
+h2 { color: #345; }

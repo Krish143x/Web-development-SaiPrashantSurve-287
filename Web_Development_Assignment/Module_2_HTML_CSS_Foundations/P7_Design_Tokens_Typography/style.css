@@ -1,0 +1,12 @@
+:root {
+    --main-color: #355c7d;
+    --light-color: #edf2f5;
+    --space: 18px;
+    --text-color: #252525;
+}
+body { font-family: Arial, sans-serif; color: var(--text-color); margin: 0; line-height: 1.6; }
+header { background: var(--light-color); text-align: center; padding: 28px; }
+main { max-width: 760px; margin: 25px auto; padding: 0 16px; }
+section { padding: var(--space); margin-bottom: var(--space); border: 1px solid #ddd; }
+h1, h2 { color: var(--main-color); }
+button { background: var(--main-color); color: white; border: 0; padding: 10px 16px; border-radius: 4px; }

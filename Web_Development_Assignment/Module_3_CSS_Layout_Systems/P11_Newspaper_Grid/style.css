@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Georgia, serif; color: #222; }
+header { text-align: center; padding: 18px; border-bottom: 3px solid #333; }
+header h1 { margin-bottom: 5px; }
+.news-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 18px; max-width: 1000px; margin: 25px auto; padding: 0 18px; }
+article { padding: 15px; border-right: 1px solid #ccc; }
+.main-story { background: #f3f3f3; }
+footer { text-align: center; padding: 12px; background: #eee; }
+@media (max-width: 650px) { .news-grid { grid-template-columns: 1fr; } article { border-right: 0; border-bottom: 1px solid #ccc; } }
